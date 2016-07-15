@@ -1,5 +1,3 @@
-import string
-
 class Multiplication:
     def __init__(self):
         self.result = 1
