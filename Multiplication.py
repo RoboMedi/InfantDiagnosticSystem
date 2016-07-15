@@ -5,7 +5,6 @@ class Multiplication:
         self.result = 1
         self.isNumber = True
 
-    #if you don't put 'self' as a parameter , 'self'-instance info goes into arg.
     def do(self, *arg):
         for x in arg:
             if type(x) is str:
@@ -20,8 +19,4 @@ class Multiplication:
                 self.result *= x
             print self.result
 
-
-cal = Multiplication()
-
-cal.do(1,2,3,6)
 
