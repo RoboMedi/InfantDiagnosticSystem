@@ -5,7 +5,7 @@ class Multiplication:
         self.result = 1
         self.isNumber = True
 
-    def do(self, *arg):
+    def execute(self, *arg):
         for x in arg:
             if type(x) is str:
                 print "Cannot caluate character type"
